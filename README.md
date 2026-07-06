@@ -86,9 +86,3 @@ npm run dev
 ## 本次改造点
 
 在 `student-management-ui/src/views/student/List.vue` 中增加了学生列表搜索框，并使用 Vue `computed` 实现按学号、姓名、年级、专业的本地筛选，提升后台列表的查询体验。
-
-## 适合简历描述
-
-- 基于 Vue 3 + Element Plus 开发学生管理后台，完成登录、学生列表、表单编辑、分页展示等功能。
-- 使用 Axios 封装接口请求，配合后端完成学生信息 CRUD 联调。
-- 使用 computed 实现学生列表关键字筛选，支持按学号、姓名、年级、专业快速检索。
